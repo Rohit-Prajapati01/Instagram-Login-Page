@@ -1,0 +1,92 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+.front {
+
+	width: 100%;
+	height: 565px;
+	background-image: url(background.jpg);
+	background-size: 100% 100%;
+	padding-top: 30px;
+}
+
+.container {
+
+	width: 350px;
+	height: 530px;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+.container select {
+	margin-top: 5px;
+	margin-left: 135px;
+	border: none;
+}
+
+.container img {
+
+	width: 180px;
+	height: 60px;
+	padding-left: 75px;
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+
+.container input {
+
+	width: 280px;
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.container #btn {
+	width: 305px;
+	padding: 13px;
+	margin-top: 15px;
+	margin-left: 20px;
+	background-color: #3498DB;
+	border: none;
+	border-radius: 3px;
+	color: white;
+}
+
+.container h4 {
+	font-family: Calibri Light;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
+.container mark {
+	color: #151F94;
+	background-color: unset;
+}
+
+.container .line {
+	padding-top: 18px;
+	padding-left: 20px;
+}
+
+.container .line::before {
+	content: '------------------------- ';
+}
+
+.container .line::after {
+	content: '--------------------------- ';
+}
+
+.container i {
+	padding-top: 20px;
+	padding-left: 100px;
+	font-size: 18px;
+	padding-right: 5px;
+}
+
+.container .icon {
+	font-size: 13px;
+	color: #005eff;
+}
